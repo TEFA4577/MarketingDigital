@@ -18,6 +18,11 @@
                                         color: #0880e8;
                                     }
                                     
+                                     ::-webkit-scrollbar-thumb {
+                                        background: #ff0666;
+                                        border-radius: 2px;
+                                    }
+                                    
                                     a:hover {
                                         color: #2b99f8;
                                         text-decoration: none;
@@ -1228,6 +1233,70 @@
 # Portfoio
 --------------------------------------------------------------*/
                                     
+                                    .outer {
+                                        margin-top: 80px;
+                                    }
+                                    
+                                    .inner {
+                                        margin-top: 50px;
+                                        border: 0px solid #ddd;
+                                        height: 55px;
+                                        line-height: 50px;
+                                        font-size: 45px;
+                                        overflow: hidden;
+                                        display: inline-block;
+                                        text-align: center;
+                                        padding-bottom: 30px;
+                                    }
+                                    
+                                    .animated-heading-after-part {
+                                        margin-left: 8px;
+                                    }
+                                    
+                                    .animated-heading-after-part,
+                                    animated-heading-before-part {
+                                        position: relative;
+                                        z-index: 1;
+                                    }
+                                    
+                                    h2 {
+                                        text-align: center;
+                                    }
+                                    
+                                    .inner span {
+                                        animation: animate 10s ease infinite;
+                                        position: relative;
+                                        color: #e58e26;
+                                    }
+                                    
+                                    @keyframes animate {
+                                        0%,
+                                        100% {
+                                            top: 0;
+                                        }
+                                        20% {
+                                            top: 0px;
+                                        }
+                                        25% {
+                                            top: -50px;
+                                        }
+                                        45% {
+                                            top: -50px;
+                                        }
+                                        50% {
+                                            top: -100px;
+                                        }
+                                        70% {
+                                            top: -100px;
+                                        }
+                                        75% {
+                                            top: -150px;
+                                        }
+                                        95% {
+                                            top: -150px;
+                                        }
+                                    }
+                                    
                                     .portfoio .portfolio-item {
                                         flex-wrap: wrap;
                                         justify-content: space-between;
@@ -1299,34 +1368,6 @@
                                     .words span {
                                         animation: animate 10s ease infinite;
                                         position: relative;
-                                    }
-                                    
-                                    @keyframes animate {
-                                        0%,
-                                        100% {
-                                            top: 0;
-                                        }
-                                        20% {
-                                            top: 0px;
-                                        }
-                                        25% {
-                                            top: -50px;
-                                        }
-                                        45% {
-                                            top: -50px;
-                                        }
-                                        50% {
-                                            top: -100px;
-                                        }
-                                        70% {
-                                            top: -100px;
-                                        }
-                                        75% {
-                                            top: -150px;
-                                        }
-                                        95% {
-                                            top: -150px;
-                                        }
                                     }
                                     
                                     #sppb-addon-1575057708997 {
@@ -1655,6 +1696,70 @@
                                         margin-left: auto;
                                         padding-left: 15px;
                                         padding-right: 15px;
+                                    }
+                                    
+                                    .sppb-column,
+                                    .sppb-column-addons {
+                                        position: relative;
+                                        z-index: 1;
+                                        width: 100%;
+                                    }
+                                    
+                                    #sppb-addon-1575057708960 {
+                                        box-shadow: 0 0 0 0 #ffffff;
+                                    }
+                                    
+                                    .sppb-text-center {
+                                        text-align: center;
+                                    }
+                                    
+                                    #sppb-addon-1575057708960 .sppb-addon-title {
+                                        font-weight: 900;
+                                    }
+                                    
+                                    .sppb-addon-animated-heading.sppb-text-center .sppb-addon-title {
+                                        justify-content: center;
+                                    }
+                                    
+                                    .sppb-addon-animated-heading .sppb-addon-title {
+                                        font-size: 45px;
+                                        font-weight: 600;
+                                        color: #4e5465;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        align-items: center;
+                                        margin: 0;
+                                    }
+                                    
+                                    #sppb-addon-1575057708960 .animated-text-words-wrapper {
+                                        color: #ff0666;
+                                        font-weight: 900;
+                                    }
+                                    
+                                    .animated-heading-text.zoom .animated-text-words-wrapper {
+                                        -webkit-perspective: 300px;
+                                        perspective: 300px;
+                                    }
+                                    
+                                    .animated-text-words-wrapper {
+                                        position: relative;
+                                        text-align: center;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                    }
+                                    
+                                    .animated-heading-after-part {
+                                        margin-left: 8px;
+                                    }
+                                    
+                                    .animated-heading-after-part,
+                                    .animated-heading-before-part {
+                                        position: relative;
+                                        z-index: 1;
+                                    }
+                                    
+                                    em {
+                                        font-style: italic;
                                     }
                                     /*--------------------------------------------------------------
 # Portfolio Details
