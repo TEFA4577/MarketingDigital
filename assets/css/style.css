@@ -198,6 +198,51 @@ a {
     width: 100%;
 }
 
+#hero .carousel-contacts{
+    position: absolute;
+    z-index: 1;
+    top: 75%;
+    left: 10%;
+    padding: auto;
+}
+
+.carousel-contacts .icon-box i {
+    float: left;
+    color: #fff;
+    font-size: 40px;
+    line-height: 0;
+  }
+  
+.carousel-contacts .icon-box .sppb-icon h4 {
+    margin-left: 70px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+.sppb-icon .sppb-icon-container {
+    display: inline-block;
+    text-align: center;
+    padding: 0 0 0 0;
+    color: #ffffff;
+    border-width: 0px;
+}
+
+.sppb-icon .sppb-icon-container i {
+    float: left;
+    font-size: 40px;
+    line-height: 0;
+}
+
+.sppb-icon  h4 {
+    margin-left: 70px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+
 @media (max-width: 767px) {
     #hero .wave svg {
         width: 100%;
